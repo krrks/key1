@@ -1,4 +1,4 @@
-FROM kali:latest
+FROM kalilinux/kali-linux-docker
 RUN mkdir /temp  \
     && chmod 777 /temp /usr 
  
