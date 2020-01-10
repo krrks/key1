@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
-    && apt-get install -y aircrack-ng
+    && apt-get install -y aircrack-ng \
     && mkdir /temp  \
     && chmod 777 /temp /usr \
     && cd /temp \
