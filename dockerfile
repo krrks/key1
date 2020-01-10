@@ -4,4 +4,4 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && mkdir /temp \
     && chmod 777 /temp  
 ADD /1.hccapx /temp/1.key
-CMD ["sleep","1000h"]
+CMD ["sleep","48h"]
