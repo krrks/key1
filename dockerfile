@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-RUN apt-get update \
+RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && apt-get install hashcat \
     && mkdir /temp \
     && chmod 777 /temp \ 
